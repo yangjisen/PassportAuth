@@ -1,0 +1,28 @@
+{
+    "name": "yangjisen/passport-auth",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yang Ji Sen",
+            "email": "381722452@qq.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "laravel/framework": "^6.0",
+        "laravel/passport": "^8.3",
+        "baum/baum": "v2.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "YangJiSen\\PassportAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YangJiSen\\PassportAuth\\ServiceProvider"
+            ]
+        }
+    }
+}
